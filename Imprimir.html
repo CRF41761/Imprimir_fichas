@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🖨️ Sistema de Impresión de Fichas</title>
+    <link rel="stylesheet" href="imprimir.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🖨️ Sistema de Impresión de Fichas</h1>
+            <p>Busca fichas por número, especie, fecha o municipio. Los colores indican el tipo de ficha.</p>
+        </header>
+
+        <div class="search-box">
+            <input type="text" id="buscador" placeholder="🔍 Buscar cualquier ficha (vivo o cadáver)...">
+            <button id="btnBuscar">Buscar</button>
+        </div>
+
+        <div class="leyenda">
+            <h3>Leyenda de colores:</h3>
+            <span class="tag-vivo">🐦 VIVO</span>
+            <span class="tag-cadaver">💀 CADÁVER</span>
+        </div>
+
+        <div id="resultados">
+            <p style="text-align:center; color:#999; padding:20px;">Introduce términos de búsqueda y pulsa "Buscar"</p>
+        </div>
+
+        <footer>
+            <p>💡 Consejo: Deja el buscador vacío y pulsa Buscar para ver todas las fichas</p>
+        </footer>
+    </div>
+
+    <script src="imprimir.js"></script>
+</body>
+</html>
