@@ -1,5 +1,5 @@
 // ✅ URL de tu Google Sheets (actualizada con CORS)
-const SPREADSHEET_URL = "https://script.google.com/macros/s/AKfycbzuMbCehoFpRYeDgE1QCjzJXlCO_rjdOpoMIqOLKY13mN_96xa8E6onsNQ8Bx0ulZc/exec";
+const SPREADSHEET_URL = "https://script.google.com/macros/s/AKfycbwnimQNlwKJEGDniC6sQSL7rBe0W08BpjXAEo_SPGRg2qcfxgLtcLm7MhWvpYZa6Hc4/exec";
 
 // Función principal de búsqueda
 async function buscarFichas(termino = '') {
